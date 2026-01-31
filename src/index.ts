@@ -9,7 +9,7 @@ import { SkillzMarket } from '@skillzmarket/sdk';
 import { tools, handleTool, ToolContext } from './tools.js';
 import { getWalletFromEnv } from './wallet.js';
 
-const API_URL = process.env.SKILLZ_API_URL || 'https://api.skillzmarket.com';
+const API_URL = process.env.SKILLZ_API_URL || 'https://api.skillz.market';
 
 async function main() {
   const wallet = getWalletFromEnv();

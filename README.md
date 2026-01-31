@@ -19,7 +19,7 @@ Add to your MCP client configuration:
       "command": "npx",
       "args": ["@skillzmarket/mcp"],
       "env": {
-        "SKILLZ_API_URL": "https://api.skillzmarket.com",
+        "SKILLZ_API_URL": "https://api.skillz.market",
         "SKILLZ_PRIVATE_KEY": "0x..."
       }
     }
