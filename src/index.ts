@@ -47,7 +47,9 @@ async function main() {
 
   console.error('Skillz Market MCP server running');
 
-  if (!wallet) {
+  if (wallet) {
+    console.error('Wallet configured - using x402 USDC payments on Base');
+  } else {
     console.error('Warning: No wallet configured. Set SKILLZ_PRIVATE_KEY for paid skill calls.');
   }
 }

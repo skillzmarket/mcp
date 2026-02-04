@@ -1,6 +1,6 @@
 {
   "name": "@skillzmarket/mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "bin": {
     "skillzmarket-mcp": "./dist/index.js"
@@ -12,12 +12,15 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
-    "@skillzmarket/sdk": "workspace:*",
+    "@skillzmarket/sdk": "^0.1.7",
     "viem": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
     "tsx": "^4.0.0",
     "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
